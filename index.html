@@ -9,257 +9,1200 @@
       rel="stylesheet"
     />
   </head>
+  <style>
+    .tr-blue {
+      background: #eff6ff;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+    .tr-gray {
+      background: #e5e7eb;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+  </style>
   <body>
-    <div class="container mx-auto px-5 py-3">
-      <header>
-        <div class="flex justify-between">
-          <img
-            src="./assets/CAFA_Logo.png"
-            alt="header-photo1"
-            class="w-24 h-24 object-contain"
-          />
-          <img
-            src="./assets/CAFA_Logo.png"
-            alt="header-photo2"
-            class="w-24 h-24 object-contain"
-          />
-        </div>
-        <div class="grid grid-cols-3 items-end mt-6">
-          <img
-            src="./assets/Akfa_logo.png"
-            alt="Akfa_logo"
-            class="w-24 h-20 object-contain"
-          />
-          <div class="flex flex-col items-center text-center">
-            <h1 class="font-bold text-2xl uppercase">CAFA FUTSAL CUP 2023</h1>
-            <h3 class="text-xl uppercase font-bold">Match Report</h3>
-            <div class="">
-              24/07/2023 05:00 (UTC+5) Asia/Dushanbe · DUSHANBE INDOOR HALL
-            </div>
-            <div class="">Dushanbe · Tajikistan</div>
-            <div class="font-semibold">Attendance: 150</div>
+    <header>
+      <div class="flex justify-between">
+        <img
+          src="./assets/CAFA_Logo.png"
+          alt="header-photo1"
+          class="w-12 h-12 object-contain"
+        />
+        <img
+          src="./assets/CAFA_Logo.png"
+          alt="header-photo2"
+          class="w-12 h-12 object-contain"
+        />
+      </div>
+      <div class="grid grid-cols-3 items-end mt-4">
+        <img
+          src="./assets/Akfa_logo.png"
+          alt="Akfa_logo"
+          class="w-24 h-20 object-contain"
+        />
+        <div class="flex flex-col items-center text-center">
+          <h1 class="font-bold text-xl uppercase">CAFA FUTSAL CUP 2023</h1>
+          <h3 class="text-lg uppercase font-bold">Match Report</h3>
+          <div class="text-xs">
+            24/07/2023 05:00 (UTC+5) Asia/Dushanbe · DUSHANBE INDOOR HALL
           </div>
-          <div class="flex flex-col items-end">
-            <div class="font-semibold">
-              Match No: <span class="font-normal">6</span>
-            </div>
-            <div class="font-semibold">
-              Duration: <span class="font-normal"> 0 h 55 min</span>
-            </div>
-            <div class="font-semibold">
-              Report Date: <span class="font-normal"> 24/07/2023 07:38 </span>
-            </div>
+          <div class="text-xs">Dushanbe · Tajikistan</div>
+          <div class="font-semibold text-xs">Attendance: 150</div>
+        </div>
+        <div class="flex flex-col items-end text-right">
+          <div class="font-semibold text-xs">
+            Match No: <span class="font-normal">6</span>
+          </div>
+          <div class="font-semibold text-xs">
+            Duration: <span class="font-normal"> 0 h 55 min</span>
+          </div>
+          <div class="font-semibold text-xs">
+            Report Date: <span class="font-normal"> 24/07/2023 07:38 </span>
           </div>
         </div>
-        <hr class="mt-2 border-t border-black" />
-      </header>
-      <main class="flex gap-4 mt-8">
-        <section class="h-screen flex-1 w-4/5">
-          <section class="flex justify-between flex-1">
-            <div class="flex flex-col gap-4">
-              <h2 class="text-sm font-medium uppercase">HOME TEAM</h2>
-              <div class="flex items-center mt-6 gap-4">
-                <img src="./assets/uz.png" alt="home-team" class="w-24 h-24" />
-                <h1 class="text-lg font-medium uppercase">UZBEKISTAN</h1>
-              </div>
+      </div>
+      <hr class="mt-2 border-t border-black" />
+    </header>
+    <main class="flex gap-12 mt-8">
+      <section class="h-screen w-3/5">
+        <section class="flex justify-between flex-1">
+          <div class="flex flex-col gap-4">
+            <h2 class="text-xs font-medium uppercase">HOME TEAM</h2>
+            <div class="flex items-center mt-8 gap-4">
               <img
-                src="./assets/player.png"
-                alt="player"
-                class="w-48 h-48 object-contain"
+                src="./assets/uz.png"
+                alt="home-team"
+                class="w-9 h-9 rounded-full"
               />
+              <h1 class="text-xs font-medium uppercase">UZBEKISTAN</h1>
             </div>
-            <div class="">
-              <h2 class="text-sm font-medium uppercase">
-                CAFA FUTSAL CUP 2023 • ROUND 1 / 1 • MATCHDAY 2 / 5
-              </h2>
-              <div>
-                <div class="flex flex-col items-center">
-                  <div class="flex gap-12 mt-6">
-                    <div
-                      class="bg-gray-200 text-center font-medium w-6 text-2xl rounded-sm"
-                    >
-                      3
-                    </div>
-                    <span class="font-bold">:</span>
-                    <div
-                      class="bg-gray-200 text-center font-medium w-6 text-2xl rounded-sm"
-                    >
-                      4
-                    </div>
+            <img
+              src="./assets/player.png"
+              alt="player"
+              class="w-24 h-24 rounded-full object-contain"
+            />
+          </div>
+          <div class="">
+            <h2 class="text-xs font-medium uppercase text-center">
+              CAFA FUTSAL CUP 2023 • ROUND 1 / 1 • MATCHDAY 2 / 5
+            </h2>
+            <div>
+              <div class="flex flex-col items-center">
+                <div class="flex gap-12 mt-2">
+                  <div
+                    class="tr-gray text-center font-medium w-6 text-xl rounded-sm"
+                  >
+                    3
                   </div>
-                  <div class="flex flex-col items-center gap-4 mt-12">
-                    <div class="flex gap-8 font-medium">
-                      <div>2</div>
-                      <div>1st Period</div>
-                      <div>1</div>
-                    </div>
-                    <div class="flex gap-8 font-medium">
-                      <div>1</div>
-                      <div>2nd Period</div>
-                      <div>3</div>
-                    </div>
-                    <div class="flex gap-8 font-medium">
-                      <div>0</div>
-                      <div>Extra time</div>
-                      <div>0</div>
-                    </div>
+                  <span class="font-bold">:</span>
+                  <div
+                    class="tr-gray text-center font-medium w-6 text-xl rounded-sm"
+                  >
+                    4
+                  </div>
+                </div>
+                <div class="flex flex-col items-center gap-3 mt-12">
+                  <div class="flex gap-8 font-medium text-xs">
+                    <div>2</div>
+                    <div>1st Period</div>
+                    <div>1</div>
+                  </div>
+                  <div class="flex gap-8 font-medium text-xs">
+                    <div>1</div>
+                    <div>2nd Period</div>
+                    <div>3</div>
+                  </div>
+                  <div class="flex gap-8 font-medium text-xs">
+                    <div>0</div>
+                    <div>Extra time</div>
+                    <div>0</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col gap-4">
-              <h2 class="text-sm font-medium uppercase">AWAY TEAM</h2>
-              <div class="flex items-center mt-6 gap-4">
-                <h1 class="text-lg font-medium uppercase">UZBEKISTAN</h1>
-                <img src="./assets/uz.png" alt="home-team" class="w-24 h-24" />
-              </div>
+          </div>
+          <div class="flex flex-col gap-4 items-end">
+            <h2 class="text-xs font-medium uppercase">AWAY TEAM</h2>
+            <div class="flex items-center mt-8 gap-4">
+              <h1 class="text-xs font-medium uppercase">UZBEKISTAN</h1>
               <img
-                src="./assets/player.png"
-                alt="player"
-                class="w-48 h-48 object-contain"
+                src="./assets/uz.png"
+                alt="home-team"
+                class="w-9 h-9 rounded-full"
               />
             </div>
-          </section>
-          <section>
-            <div class="mt-6">
-              <table class="table-fixed w-full border border-gray-800">
+            <img
+              src="./assets/player.png"
+              alt="player"
+              class="w-24 h-24 object-contain"
+            />
+          </div>
+        </section>
+        <section>
+          <div class="mt-12">
+            <table class="table-fixed w-full border border-gray-800 ">
+              <thead>
+                <tr class="border-b border-gray-800 tr-blue tr-blue">
+                  <th class="border-r border-gray-800 text-xs">Fouls</th>
+                  <th class="border-r border-gray-800 text-xs">Timeout</th>
+                  <th class="border-r border-gray-800 text-xs"></th>
+                  <th class="border-r border-gray-800 text-xs">Fouls</th>
+                  <th class="border-r border-gray-800 text-xs">Timeout</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-800">
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    2
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center uppercase text-xs"
+                  >
+                    Yes
+                  </td>
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    1st Period
+                  </td>
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    3
+                  </td>
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    Yes
+                  </td>
+                </tr>
+                <tr class="tr-gray">
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    3
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center uppercase text-xs"
+                  >
+                    Yes
+                  </td>
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    2nd Period
+                  </td>
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    4
+                  </td>
+                  <td class="border-r border-gray-800 text-center text-xs">
+                    Yes
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="flex mt-6 gap-12">
+            <div class="">
+              <div class="text-xs font-semibold mb-2">STARTING (5)</div>
+              <table class="table w-full border border-gray-800">
                 <thead>
-                  <tr class="border-b border-gray-800 bg-blue-100">
-                    <th class="border-r border-gray-800">Fouls</th>
-                    <th class="border-r border-gray-800">Timeout</th>
-                    <th class="border-r border-gray-800"></th>
-                    <th class="border-r border-gray-800">Fouls</th>
-                    <th class="border-r border-gray-800">Timeout</th>
+                  <tr class="border-b border-gray-800 tr-blue">
+                    <th class="border-r border-gray-800 px-4">#</th>
+                    <th class="border-r border-gray-800 pr-32 text-xs">
+                      Player
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="border-b border-gray-800">
-                    <td class="border-r border-gray-800 text-center">2</td>
-                    <td class="border-r border-gray-800 text-center uppercase">
-                      Yes
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      1
                     </td>
-                    <td class="border-r border-gray-800 text-center">
-                      1st Period
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      RAVSHAN ELIBAEV
                     </td>
-                    <td class="border-r border-gray-800 text-center">3</td>
-                    <td class="border-r border-gray-800 text-center">Yes</td>
                   </tr>
-                  <tr class="bg-gray-200">
-                    <td class="border-r border-gray-800 text-center">3</td>
-                    <td class="border-r border-gray-800 text-center uppercase">
-                      Yes
+                  <tr class="border-b border-gray-800 tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      4
                     </td>
-                    <td class="border-r border-gray-800 text-center">
-                      2nd Period
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      IKHTIYOR ROPIEV
                     </td>
-                    <td class="border-r border-gray-800 text-center">4</td>
-                    <td class="border-r border-gray-800 text-center">Yes</td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      1
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      RAVSHAN ELIBAEV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      4
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      IKHTIYOR ROPIEV
+                    </td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <div class="flex mt-8 gap-12">
-              <div>
-                <div class="text-sm font-semibold mb-2">STARTING (5)</div>
-                <table class="table-fixed w-full border border-gray-800">
+            <div class="">
+              <div class="text-xs font-semibold mb-2 flex justify-end">
+                STARTING (5)
+              </div>
+              <table class="table w-full border border-gray-800">
+                <thead>
+                  <tr class="border-b border-gray-800 tr-blue">
+                    <th class="border-r border-gray-800 px-4 text-xs">#</th>
+                    <th class="border-r border-gray-800 pr-32 text-xs">
+                      Player
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      1
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      RAVSHAN ELIBAEV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800 tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      4
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      IKHTIYOR ROPIEV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      1
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      RAVSHAN ELIBAEV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      4
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      IKHTIYOR ROPIEV
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="flex mt-6 gap-12">
+            <div class="">
+              <div class="text-xs font-semibold mb-2 text-xs">
+                SUBSTITUTES (9)
+              </div>
+              <table class="table w-full border border-gray-800">
+                <thead>
+                  <tr class="border-b border-gray-800 tr-blue table-color">
+                    <th class="border-r border-gray-800 px-4 text-xs">#</th>
+                    <th class="border-r border-gray-800 pr-32 text-xs">
+                      Player
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      7
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center text-xs uppercase"
+                    >
+                      DILSHOD RAKHMATOV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800 tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      2
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center text-xs uppercase"
+                    >
+                      KHUSHNUR ERKINOV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      3
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      MASHRAB ADILOV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td
+                      class="border-r border-b border-gray-800 text-center text-xs"
+                    >
+                      5
+                    </td>
+                    <td
+                      class="border-b border-gray-800 text-center uppercase text-xs"
+                    >
+                      SUNATULLA JURAEV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      3
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      MASHRAB ADILOV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td
+                      class="border-r border-b border-gray-800 text-center text-xs"
+                    >
+                      5
+                    </td>
+                    <td
+                      class="border-b border-gray-800 text-center uppercase text-xs"
+                    >
+                      SUNATULLA JURAEV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      9
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      AVAZBEK ABDUVALIEV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      11
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      AKBAR USMONOV
+                    </td>
+                  </tr>
+                  <tr class="border-t border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      14
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      JAMSHIT RAKHMATULLAEV
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="mt-8">
+                <h1 class="font-medium text-xs">
+                  Head Coach:
+                  <span class="font-normal">BAKHODIR AKHMEDOV (UZB)</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Assistant Coach:
+                  <span class="font-normal">RUSTAM UMAROV</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Doctor: <span class="font-normal">LAZIZBEK TESHABOEV</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Physiotherapist:
+                  <span class="font-normal">RASUL DAYANOV</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Team Admin: <span class="font-normal">AKMAL KARABAEV</span>
+                </h1>
+              </div>
+            </div>
+            <div class="">
+              <div class="text-xs font-semibold mb-2 flex justify-end text-xs">
+                SUBSTITUTES (9)
+              </div>
+              <table class="table w-full border border-gray-800">
+                <thead>
+                  <tr class="border-b border-gray-800 tr-blue">
+                    <th class="border-r border-gray-800 px-4 text-xs">#</th>
+                    <th class="border-r border-gray-800 pr-32 text-xs">
+                      Player
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      7
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      DILSHOD RAKHMATOV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800 tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      2
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      KHUSHNUR ERKINOV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      3
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      MASHRAB ADILOV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td
+                      class="border-r border-b border-gray-800 text-center text-xs"
+                    >
+                      5
+                    </td>
+                    <td
+                      class="border-b border-gray-800 text-center uppercase text-xs"
+                    >
+                      SUNATULLA JURAEV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      3
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      MASHRAB ADILOV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td
+                      class="border-r border-b border-gray-800 text-center text-xs"
+                    >
+                      5
+                    </td>
+                    <td
+                      class="border-b border-gray-800 text-center uppercase text-xs"
+                    >
+                      SUNATULLA JURAEV
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      9
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      AVAZBEK ABDUVALIEV
+                    </td>
+                  </tr>
+                  <tr class="tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      11
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      AKBAR USMONOV
+                    </td>
+                  </tr>
+                  <tr class="border-t border-gray-800">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      14
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      JAMSHIT RAKHMATULLAEV
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="mt-8 flex flex-col items-end">
+                <h1 class="font-medium text-xs">
+                  Head Coach:
+                  <span class="font-normal">MAJID MORTEZAEI ABROUDI (IRN)</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Assistant Coach:
+                  <span class="font-normal">HOSEIN AFSHAR</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Team Manager:
+                  <span class="font-normal">MOHAMMAD HAIDARI</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Doctor: <span class="font-normal">JAVID MORADI</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  GK Coach:
+                  <span class="font-normal">HAMIDREZA MASOUMIANBAJESTANI</span>
+                </h1>
+                <h1 class="font-medium text-xs">
+                  Team Staff:
+                  <span class="font-normal">FARID AHMAD YOUSUFZAI</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="mt-6">
+            <h1 class="font-medium mb-1 text-xs">MATCH EVENTS</h1>
+            <div>
+              <div class="flex justify-between border-t border-gray-800">
+                <h1 class="font-medium text-xs">UZBEKISTAN</h1>
+                <h1 class="font-medium text-xs">AFGHANISTAN</h1>
+              </div>
+              <table class="table-fixed w-full border border-gray-800 mt-2">
+                <thead>
+                  <tr class="border-b border-gray-800 tr-blue">
+                    <th class="border-r border-gray-800 text-xs"></th>
+                    <th class="border-r border-gray-800 text-xs">1P</th>
+                    <th class="border-r border-gray-800 text-xs"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-800">
+                    <td
+                      class="border-r border-gray-800 text-center text-xs"
+                    ></td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      2'
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      HAMID REZA HOSSAINI
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800 tr-gray">
+                    <td class="border-r border-gray-800 text-center text-xs">
+                      AKBAR USMONOV
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    >
+                      11'
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center uppercase text-xs"
+                    ></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="mt-6">
+            <table class="table-fixed w-full border border-gray-800 mt-6">
+              <thead>
+                <tr class="border-b border-gray-800 tr-blue">
+                  <th class="border-r border-gray-800 text-xs uppercase"></th>
+                  <th class="border-r border-gray-800 text-xs uppercase">1P</th>
+                  <th class="border-r border-gray-800 text-xs uppercase"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-800">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    13'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    HAMID REZA HOSSAINI
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-800 tr-gray">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    KHUSNIDDIN NISHONOV
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    20'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                </tr>
+                <tr class="border-b border-gray-800">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    KHUSNIDDIN NISHONOV
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    20'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table-fixed w-full border border-gray-800">
+              <thead>
+                <tr class="border-b border-gray-800 tr-blue">
+                  <th class="border-r border-gray-800 text-xs uppercase"></th>
+                  <th class="border-r border-gray-800 text-xs uppercase">2P</th>
+                  <th class="border-r border-gray-800 text-xs uppercase"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-800">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    KHUSNIDDIN NISHONOV
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    28'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                </tr>
+                <tr class="border-b border-gray-800 tr-gray">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    28'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    MOHAMMAD ALI FAYAZI
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-800">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    28'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    MOHAMMAD JAVAD SAFARI
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-800 tr-gray">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    34'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    SEYED HOSSEIN MOUSAVI
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-800">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    37'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    MOHAMMAD ALI FAYAZI
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-800 tr-gray">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    DILSHOD RAKHMATOV
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    40'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                </tr>
+                <tr class="border-b border-gray-800">
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  ></td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    40'
+                  </td>
+                  <td
+                    class="border-r border-gray-800 text-center text-xs uppercase"
+                  >
+                    MOHAMMAD ALI FAYAZI
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-6">
+            <h1 class="font-medium mb-1 text-xs uppercase">
+              PENALTY SHOOT-OUT
+            </h1>
+            <div>
+              <div class="flex justify-between border-t border-gray-800">
+                <h1 class="font-medium text-xs uppercase">UZBEKISTAN</h1>
+                <h1 class="font-medium text-xs uppercase">AFGHANISTAN</h1>
+              </div>
+              <div class="flex justify-between gap-8">
+                <table class="table w-full border border-gray-800 mt-2">
                   <thead>
-                    <tr class="border-b border-gray-800 bg-blue-100">
-                      <th class="border-r border-gray-800">#</th>
-                      <th class="border-r border-gray-800">Player</th>
+                    <tr class="border-b border-gray-800 tr-blue">
+                      <th class="border-r border-gray-800 text-xs uppercase">
+                        Kick
+                      </th>
+                      <th class="border-r border-gray-800 text-xs uppercase">
+                        #
+                      </th>
+                      <th class="border-r border-gray-800 text-xs uppercase">
+                        Player
+                      </th>
+                      <th class="border-r border-gray-800 text-xs uppercase">
+                        Outcome
+                      </th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr class="border-b border-gray-800">
-                      <td class="border-r border-gray-800 text-center">1</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      RAVSHAN ELIBAEV
-
-                      </td>
+                  <tbody></tbody>
+                </table>
+                <table class="table w-full border border-gray-800 mt-2">
+                  <thead>
+                    <tr class="border-b border-gray-800 tr-blue">
+                      <th class="border-r border-gray-800 text-xs">Kick</th>
+                      <th class="border-r border-gray-800 text-xs">#</th>
+                      <th class="border-r border-gray-800 text-xs">Player</th>
+                      <th class="border-r border-gray-800 text-xs">Outcome</th>
                     </tr>
-                    <tr class="border-b border-gray-800 bg-gray-200">
-                      <td class="border-r border-gray-800 text-center">4</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      IKHTIYOR ROPIEV
-                      </td>
-                    </tr>
-                    <tr class="border-b border-gray-800">
-                      <td class="border-r border-gray-800 text-center">1</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      RAVSHAN ELIBAEV
-
-                      </td>
-                    </tr>
-                    <tr class="bg-gray-200">
-                      <td class="border-r border-gray-800 text-center">4</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      IKHTIYOR ROPIEV
-                      </td>
-                    </tr>
-                  </tbody>
+                  </thead>
+                  <tbody></tbody>
                 </table>
               </div>
-              <div class="">
-                <div class="text-sm font-semibold mb-2 flex justify-end">
-                  STARTING (5)
-                </div>
+            </div>
+          </div>
+          <div class="mt-6">
+            <div>
+              <div class="flex justify-between border-t border-gray-800">
+                <h1 class="font-medium text-xs">SIGNATURES</h1>
+              </div>
+              <div class="flex justify-between gap-8">
                 <table class="table-fixed w-full border border-gray-800">
                   <thead>
-                    <tr class="border-b border-gray-800 bg-blue-100">
-                      <th class="border-r border-gray-800">#</th>
-                      <th class="border-r border-gray-800">Player</th>
+                    <tr class="border-b border-gray-800 tr-blue">
+                      <th class="border-r border-gray-800 text-xs">
+                        Referee​​
+                      </th>
+                      <th class="border-r border-gray-800 text-xs">
+                        ​Match commissioner​​
+                      </th>
+                      <th class="border-r border-gray-800 text-xs">
+                        ​Head coach (Home)​​
+                      </th>
+                      <th class="border-r border-gray-800 text-xs">
+                        ​Head coach (Away)​​
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="border-b border-gray-800">
-                      <td class="border-r border-gray-800 text-center">1</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      RAVSHAN ELIBAEV
+                    <td
+                      class="border-r border-gray-800 text-blue-500 text-center font-medium pt-5 text-xs"
+                    >
+                      SIGNED
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-blue-500 text-center font-medium pt-5 text-xs"
+                    ></td>
+                    <td
+                      class="border-r border-gray-800 text-blue-500 text-center font-medium pt-5 text-xs"
+                    >
+                      -------
+                    </td>
 
-                      </td>
-                    </tr>
-                    <tr class="border-b border-gray-800 bg-gray-200">
-                      <td class="border-r border-gray-800 text-center">4</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      IKHTIYOR ROPIEV
-                      </td>
-                    </tr>
-                    <tr class="border-b border-gray-800">
-                      <td class="border-r border-gray-800 text-center">1</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      RAVSHAN ELIBAEV
-
-                      </td>
-                    </tr>
-                    <tr class="bg-gray-200">
-                      <td class="border-r border-gray-800 text-center">4</td>
-                      <td
-                        class="border-r border-gray-800 text-center uppercase"
-                      >
-                      IKHTIYOR ROPIEV
-                      </td>
-                    </tr>
+                    <td
+                      class="border-r border-gray-800 text-blue-500 text-center font-medium pt-5 text-xs"
+                    >
+                      -------
+                    </td>
                   </tbody>
                 </table>
               </div>
             </div>
-          </section>
+          </div>
         </section>
-        <section class="bg-black h-screen w-1/5"></section>
-      </main>
-    </div>
+      </section>
+      <section class="h-screen w-2/5">
+        <div>
+          <div class="text-xs font-semibold mb-2 border-b border-gray-800 pb-2">
+            OFFICIALS
+          </div>
+          <div>
+            <h1 class="text-xs font-semibold mb-2">
+              Referee:
+              <span class="font-normal"> <br />KELDIBEKOV ELDIIAR (KGZ)</span>
+            </h1>
+            <h1 class="text-xs font-semibold mb-2">
+              Match commissioner:
+              <span class="font-normal"> <br />ASENOV KANAT (KGZ)</span>
+            </h1>
+            <h1 class="text-xs font-semibold mb-2">
+              Referee assessor:
+              <span class="font-normal"> <br />BUKUEV NURDIN (KGZ)</span>
+            </h1>
+            <h1 class="text-xs font-semibold mb-2">
+              Second referee:
+              <span class="font-normal">
+                <br />EHTESHAM MOHAMMAD JAVAD (IRN)</span
+              >
+            </h1>
+            <h1 class="text-xs font-semibold mb-2">
+              Third referee:
+              <span class="font-normal"> <br />SATTOROV SUKHROB (TJK)</span>
+            </h1>
+            <h1 class="text-xs font-semibold mb-2">
+              Timekeeper:
+              <span class="font-normal"> <br />MADIBOEV ERKINJON (TJK)</span>
+            </h1>
+            <h1 class="text-xs font-semibold mb-2">
+              Local General Coordinator:
+              <span class="font-normal"> <br />MELIKOV BAKHTOVAR (TJK)</span>
+            </h1>
+            <h1 class="text-xs font-semibold mb-2">
+              Local Media Officer:
+              <span class="font-normal"> <br />SALIEV FARIDUN (TJK)</span>
+            </h1>
+          </div>
+          <div class="mt-4">
+            <div class="text-xs font-semibold mb-2">TIME</div>
+            <div>
+              <table class="table w-full border border-gray-800">
+                <thead>
+                  <tr class="border-b border-gray-800 tr-blue">
+                    <th class="border-r border-gray-800 text-xs"></th>
+                    <th class="border-r border-gray-800 text-xs">
+                      Start-End time
+                    </th>
+                    <th class="border-r border-gray-800 text-xs">NT (ST)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-800">
+                    <td
+                      class="border-r border-gray-800 text-center font-medium text-xs"
+                    >
+                      1P
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center font-medium text-xs"
+                    >
+                      05:00 - 05:20
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center font-medium text-xs"
+                    >
+                      20'
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-800 tr-gray">
+                    <td
+                      class="border-r border-gray-800 text-center font-medium text-xs"
+                    >
+                      2P
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center font-medium text-xs"
+                    >
+                      05:35 - 05:55
+                    </td>
+                    <td
+                      class="border-r border-gray-800 text-center font-medium text-xs"
+                    >
+                      20'
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="mt-6">
+            <div
+              class="text-xs font-semibold mb-2 pb-2 border-b border-gray-800"
+            >
+              LEGEND
+            </div>
+            <section>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Captain</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Goalkeeper</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Goal</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Own goal</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Penalty scored</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Penalty missed</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Yellow card</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Second yellow (Red card)</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Red card</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Substitution</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Player in</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Player out</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Penalty shoot-out scored</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Penalty shoot-out missed</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Period</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Extra time</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Normal time</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Stoppage time</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Before match</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Between periods</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Between periods</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">After match</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Penalty shoot-out</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Before extra time</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">Between extra time periods</h1>
+              </div>
+              <div class="flex gap-3">
+                <img
+                  src="./assets/captain.png"
+                  alt="LEGEND-photo"
+                  class="w-4 h-4 object-contain"
+                />
+                <h1 class="text-xs mb-2">After extra time</h1>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
